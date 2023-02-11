@@ -9,7 +9,7 @@ function Home() {
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-                        Front-End Developer
+                        I'm a Front-End Developer
                     </h2>
                     <p className='text-gray-500 py-6'>
                         Active student at Universitas Pembangunan Nasional "Veteran" Jawa Timur majoring in Information Systems. Proficient in creating responsive and interactive web designs that provide a positive user experience. Experienced in working on projects in a team environment and collaborating with designers, developers, and stakeholders to achieve project goals. Strong problem-solving abilities and a team player mindset, looking for an opportunity to bring my skills and enthusiasm for a challenge.
