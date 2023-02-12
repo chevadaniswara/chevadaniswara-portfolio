@@ -26,7 +26,7 @@ const Contact = () => {
                                 <input
                                     type="email"
                                     placeholder="youremail@example.com"
-                                    id="email"
+                                    name="email"
                                     className="w-full p-1 ml-3 text-gray-500 outline-none bg-transparent"
                                 />
                             </div>
@@ -38,9 +38,9 @@ const Contact = () => {
                             </label>
                             <div className="flex items-center p-2 border rounded-md">
                                 <input
-                                    type="name"
+                                    type="text"
                                     placeholder="John Doe Johnson"
-                                    id="name"
+                                    name="name"
                                     className="w-full p-1 ml-3 text-gray-500 outline-none bg-transparent"
                                 />
                             </div>
@@ -50,7 +50,7 @@ const Contact = () => {
                             <label for="name" className="block py-3 text-gray-500">
                                 Your Message
                             </label>
-                            <textarea id="message" rows="4" className="p-3 w-full text-sm text-gray-900 bg-transparent rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+                            <textarea name="message" rows="4" className="p-3 w-full text-sm text-gray-300 bg-transparent rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
                             {/* SEND BTN */}
                             <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg-gradient-to-r from-cyan-300 to-green-500'>
                                 Send
