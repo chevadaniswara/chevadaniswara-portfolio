@@ -15,6 +15,7 @@ function Home() {
                                     autoStart: true,
                                     loop: true,
                                     delay: 60,
+                                    deleteSpeed: 30,
                                     strings: [
                                         "I'm a Front-End Developer",
                                         "I'm a UI/UX Designer",
