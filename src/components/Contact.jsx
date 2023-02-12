@@ -29,7 +29,9 @@ const Contact = () => {
                                     name="email"
                                     className="w-full p-1 ml-3 text-gray-500 outline-none bg-transparent"
                                 />
+                                
                             </div>
+                            <p id="helper-text-explanation" class="mt-2 text-sm text-gray-500 dark:text-gray-400">I'll never share your details. Your privacy, my promise.</p>
                         </div>
                         {/* START OF NAME */}
                         <div>
