@@ -4,7 +4,7 @@ import { BsTelephone, BsCircle } from 'react-icons/bs';
 function FloatingCallButton() {
     
     const handleCallClick = () => {
-        window.location.href = 'tel:+6287854625916';
+        window.location.href = 'tel:*808#';
     };
 
     return (
